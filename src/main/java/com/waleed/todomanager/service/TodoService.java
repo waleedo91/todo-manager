@@ -15,4 +15,8 @@ public interface TodoService {
     TodoDto updateTodo(Long id, TodoDto todoDto);
 
     void deleteTodo(Long id);
+
+    TodoDto completeTodo(Long id);
+
+    TodoDto incompleteTodo(Long id);
 }
